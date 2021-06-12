@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to the AIRLINE</title>
+
+</head>
+<link rel="stylesheet" href="Sanjana/Anjali.css">
+<style>
+    /* CSS reset */
+    .class{
+        height: 100vh;
+        width: 100vw;
+    }
+    body {
+        margin: 0px;
+        padding: 0px;
+        background-image: url(background.jpeg);
+        height: 855px;
+        color: blanchedalmond;
+    }
+
+    .left {
+        display: inline-block;
+        /* border: 2px solid red; */
+        position: absolute;
+        left: 60px;
+        top: 20px;
+    }
+
+    .left img {
+        width: 100px;
+        filter: invert(100%);
+    }
+
+    .left div {
+        line-height: 19px;
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .mid {
+        display: block;
+        width: 50%;
+        margin: 20px auto;       
+     /* border: 2px solid rgb(15, 174, 236); */
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+        /* border: 2px solid green; */
+    }
+
+    
+    .navbar{
+        display: inline-block;
+        /* background-color: tomato; */
+        /* border-radius: 55px; */
+    }        
+
+
+        .navbar li {
+            display: inline-block;
+            font-size: 15px;
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 44px 20px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a active {
+            color: green;
+            text-decoration: underline;
+
+        }
+        .btn{
+            margin: 0px 9px;
+            background-color: yellow;
+            color: tomato;
+            padding: 8px 12px;
+            border: 2px solid grey;
+            border-radius: 10px;
+            font-size: 15px;
+            cursor: pointer;
+
+            
+        }
+        .btn:hover{
+            background-color: turquoise;
+        }
+        .container1{
+            border: 2px solid #cddc39;
+            padding: 45px;
+            margin: 38px 380px;
+            width: 33%;
+            border-radius: 31px;
+        }
+        .form-group input{
+            text-align: center;
+            display: block;
+            width: 450px;
+            padding: 3px;
+            border: 2px solid black;
+            margin: 11px auto;
+            font-size: 25px;
+            border-radius: 8px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+        }
+       .container1 h1{
+           text-align: center;
+       }
+       .container1 button{
+           display: block;
+           width: 100px;
+           margin: 30px auto;
+
+       }
+</style>
+
+<body>
+    <div class="class">
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="icon.jpg" alt="">
+            <div>Airline </div>
+
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">NEWS</a></li>
+                <li><a href="#">HELP</a></li>
+                <li><a href="#">CONTACT US</a></li>
+
+
+
+
+            </ul>
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">Email us</button>
+        </div>
+        
+    </header>
+    <div class="container1">
+       <h1>Airline</h1>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et excepturi expedita maxime totam minus, nostrum dolores dicta repudiandae. Dolores illum officiis corporis, porro voluptatibus quibusdam? Ipsum natus vel consequuntur incidunt. Reprehenderit error possimus delectus illo.</p>
+       <form action="noaction.php">
+           <div class="form-group">
+               <input type="text" name=""  placeholder="Enter your Name">
+
+           </div>
+           <div class="form-group">
+               <input type="text" name=""  placeholder="Enter your Mob No.">
+
+           </div>
+           <div class="form-group">
+               <input type="text" name=""  placeholder="Enter your Place">
+
+           </div>
+           <div class="form-group">
+               <input type="text" name=""  placeholder="Enter your Confirmation">
+
+           </div>
+           <button class="btn">Submit</button>
+       </form>
+    </div>
+    
+</div>
+</body>
+
+</html>
